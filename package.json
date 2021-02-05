@@ -1,0 +1,29 @@
+{
+  "name": "unit-testing-base-guide",
+  "version": "1.0.0",
+  "description": "Principles and basic concepts of unit testing",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casana/unit-testing-base-guide.git"
+  },
+  "keywords": [
+    "test",
+    "unit",
+    "frontend",
+    "javascript"
+  ],
+  "author": "Carlos Martinez Casana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Casana/unit-testing-base-guide/issues"
+  },
+  "homepage": "https://github.com/Casana/unit-testing-base-guide#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
