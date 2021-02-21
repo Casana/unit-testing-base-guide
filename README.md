@@ -30,3 +30,5 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 2. Create an spec inside spec folder for each funcionality
 3. Execute Ava test to check if code pass.
 `$ npx ava`
+
+## 4 - Framework: Mocha
