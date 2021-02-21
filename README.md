@@ -23,4 +23,10 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 5. Add a _describe_ with one _it_ for each calculator method.
 6. Open local server to check tests result.
 
-## 2 - Framework: Ava
+## 3 - Framework: Ava
+
+1. Install and set up AVA
+`$ npm init ava`
+2. Create an spec inside spec folder for each funcionality
+3. Execute Ava test to check if code pass.
+`$ npx ava`
