@@ -1,4 +1,4 @@
-import { dateFormatter } from "./index.js";
+import { dateFormatter } from "../src/index.js";
 
 var today = new Date();
 var formattedToday = new Intl.DateTimeFormat("en-US").format(today);
