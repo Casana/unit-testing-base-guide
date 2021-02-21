@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/Casana/unit-testing-base-guide#readme",
   "devDependencies": {
+    "chai": "^4.3.0",
     "http-server": "^0.12.3",
+    "mocha": "^8.3.0",
     "typescript": "^4.1.5"
   }
 }
