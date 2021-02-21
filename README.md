@@ -22,3 +22,5 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 4. Import the spec inside index.html
 5. Add a _describe_ with one _it_ for each calculator method.
 6. Open local server to check tests result.
+
+## 2 - Framework: Ava
