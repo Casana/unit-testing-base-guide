@@ -39,3 +39,10 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 2. Create an spec inside test folder for each funcionality (by alpabethic order)
 3. Execute Mocha to check if code pass.
 `$ npm run test`
+
+## 5 - Framework: Jest
+1. Install Jest
+`$ npm install --save-dev jest`
+2. Create an spec inside test folder for each funcionality
+3. Execute Jest to check if code pass.
+`$ npm run test`
