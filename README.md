@@ -14,11 +14,11 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 
 ## 2 - Framework: Jasmine
 
-1. Install jasmine and initialize it
-`$ npm install --save-dev jasmine`
+1. Initialize jasmine
 `$ npx jasmine init`
 2. Add examples
 `$ npx jasmine examples`
 3. Create calculator.spec.js inside spec folder to test calculator.js methods.
 4. Import the spec inside index.html
 5. Add a _describe_ with one _it_ for each calculator method.
+6. Open local server to check tests result.
