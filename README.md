@@ -27,8 +27,15 @@ Related presentation material: https://docs.google.com/presentation/d/1yHLEu4tRJ
 
 1. Install and set up AVA
 `$ npm init ava`
-2. Create an spec inside spec folder for each funcionality
+2. Create an spec inside spec folder for each funcionality (by alpabethic order)
 3. Execute Ava test to check if code pass.
 `$ npx ava`
 
 ## 4 - Framework: Mocha
+
+1. Install Mocha and Chai
+`$ npm install --save-dev mocha`
+`$ npm install --save-dev chai`
+2. Create an spec inside test folder for each funcionality (by alpabethic order)
+3. Execute Mocha to check if code pass.
+`$ npm run test`
