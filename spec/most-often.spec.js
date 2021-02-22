@@ -10,7 +10,8 @@ test("most often - valid non-empty values", (t) => {
   value = mostOfen(7, [7, 0, 4, 4, 4, 1]);
   t.is(value, 4);
   value = mostOfen(3, [1, 2, 3, 3, 1, 3, 1]);
-  assert(value === 1 || value === 3);
+  assert(value === 1 || value === 3); // This and the next line means the same.
+  t.truthy(value === 1 || value === 3);
   t.pass();
 });
 

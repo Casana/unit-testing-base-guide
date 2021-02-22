@@ -3,6 +3,8 @@ import getMiddle from "../src/middle.js";
 
 test("middle - valid values", (t) => {
   var value = getMiddle("test");
+  t.not(value, undefined);
+  t.truthy(value);
   t.is(value, "es");
   value = getMiddle("testing");
   t.is(value, "t");
@@ -16,9 +18,11 @@ test("middle - valid values", (t) => {
 test("middle - invalid values", (t) => {
   var value = getMiddle("");
   t.is(value, undefined);
+  t.falsy(value);
   value = getMiddle();
   t.is(value, undefined);
   value = getMiddle(null);
+  t.not(value, null);
   t.is(value, undefined);
   t.pass();
 });

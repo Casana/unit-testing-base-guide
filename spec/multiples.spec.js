@@ -11,7 +11,7 @@ test("multiples - valid non-empty values", (t) => {
   value = multiples(3, 2, 6);
   t.is(value, "1 B F B 5 FB");
   value = multiples(3, 5, 10);
-  t.is(value, "1 2 F 4 B F 7 8 F B");
+  t.deepEqual(value, "1 2 F 4 B F 7 8 F B");
   t.pass();
 });
 

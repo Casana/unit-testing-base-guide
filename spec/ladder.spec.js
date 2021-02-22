@@ -5,6 +5,7 @@ test("ladder - valid values", (t) => {
   var value = getCombinations(1);
   t.is(value, 1);
   value = getCombinations(2);
+  t.not(value, 1);
   t.is(value, 2);
   value = getCombinations(3);
   t.is(value, 3);
@@ -25,4 +26,5 @@ test("ladder - invalid values", (t) => {
   value = getCombinations(null);
   t.is(value, 0);
   t.pass();
+  // t.fail() we can check that test fails althought all assertions are OK.
 });
