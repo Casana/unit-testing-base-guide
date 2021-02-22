@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Principles and basic concepts of unit testing",
   "main": "index.html",
+  "type": "module",
   "scripts": {
     "start": "http-server",
     "test": "test"
