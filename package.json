@@ -32,6 +32,7 @@
     "@babel/plugin-proposal-class-properties": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
+    "@testing-library/react": "*",
     "babel-jest": "*",
     "jest": "*"
   },
