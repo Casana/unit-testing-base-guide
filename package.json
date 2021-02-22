@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "http-server",
-    "test": "test && ava"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
