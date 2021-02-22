@@ -23,7 +23,19 @@
     "url": "https://github.com/Casana/unit-testing-base-guide/issues"
   },
   "homepage": "https://github.com/Casana/unit-testing-base-guide#readme",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "@babel/core": "*",
+    "@babel/plugin-proposal-class-properties": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-jest": "*",
+    "jest": "*"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }
