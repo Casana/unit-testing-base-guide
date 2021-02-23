@@ -13,20 +13,20 @@ describe('testing-props', () => {
     beforeEach(async () => {
       page = await newSpecPage({
         components: [TestingProps],
-        html: '<testing-props first="Peter" last="Parker"></testing-props>'
+        html: '<testing-props first="Carlos" last="Parker"></testing-props>'
       });
       element = await page.doc.querySelector('testing-props');
     });
 
     it('should work with both the first and the last name', async () => {
-      expect(element.textContent).toEqual('Hello, my name is Peter Parker');
+      expect(element.textContent).toEqual('Hello, my name is Carlos Parker');
     });
 
     it('should be able to change first and the last name', async () => {
       element.first = 'Bruce';
-      element.last = 'Wayne';
+      element.last = 'Fernandez';
       await page.waitForChanges();
-      expect(element.textContent).toEqual('Hello, my name is Bruce Wayne');
+      expect(element.textContent).toEqual('Hello, my name is Bruce Fernandez');
     });
   });
 });

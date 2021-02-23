@@ -19,6 +19,7 @@ describe('testing-methods', () => {
     });
 
     it('should be able to call method to increment count', async () => {
+      expect(shadowRoot.textContent).toBe('0');
       await page.root.incrementCount();
       await page.waitForChanges();
       expect(shadowRoot.textContent).toBe('1');

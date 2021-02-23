@@ -25,7 +25,8 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "test.unit": "stencil test --spec",
     "test.e2e": "stencil test --e2e --headless",
-    "test.screenshot": "stencil test --e2e --screenshot"
+    "test.screenshot": "stencil test --e2e --screenshot",
+    "jest-update-screenshots": "jest --updateSnapshot"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@
 exports[`using-snapshots rendering should work with both the first and the last name 1`] = `
 <using-snapshots>
   <div>
-    Hello, my name is Peter Parker
+    Hello, my name is Carlos Martínez
   </div>
 </using-snapshots>
 `;

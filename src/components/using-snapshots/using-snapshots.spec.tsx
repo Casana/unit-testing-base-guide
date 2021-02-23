@@ -17,8 +17,8 @@ describe('using-snapshots', () => {
     });
 
     it('should work with both the first and the last name', async () => {
-      page.root.first = 'Peter';
-      page.root.last = 'Parker';
+      page.root.first = 'Carlos';
+      page.root.last = 'Martínez';
       await page.waitForChanges();
       expect(page.root).toMatchSnapshot();
     });

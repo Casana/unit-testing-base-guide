@@ -1,4 +1,4 @@
-import { r as registerInstance, e as createEvent, h } from './index-a9a6c493.js';
+import { r as registerInstance, e as createEvent, h } from './index-76fc3f62.js';
 
 const TestingEventEmitter = class {
   constructor(hostRef) {
